@@ -53,3 +53,32 @@ banner_categories:
 cta_link:
   default: "/signup"
   type: string
+
+gamer_sidebar_latest_users_count:
+  default: 5
+  type: integer
+  min: 1
+  max: 15
+
+gamer_sidebar_latest_replies_count:
+  default: 5
+  type: integer
+  min: 1
+  max: 15
+
+gamer_sidebar_top_users_count:
+  default: 5
+  type: integer
+  min: 1
+  max: 15
+
+gamer_sidebar_top_users_period:
+  default: "weekly"
+  type: enum
+  choices:
+    - daily
+    - weekly
+    - monthly
+    - quarterly
+    - yearly
+    - all
