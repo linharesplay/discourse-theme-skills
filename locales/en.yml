@@ -12,6 +12,10 @@ en:
       sidebar_tags_count: "Number of tags shown in sidebar"
       banner_categories: "Categories that display a banner"
       cta_link: "URL for the call-to-action button"
+      gamer_sidebar_latest_users_count: "Number of latest users to show in Gamer Nation sidebar"
+      gamer_sidebar_latest_replies_count: "Number of latest replies to show in Gamer Nation sidebar"
+      gamer_sidebar_top_users_count: "Number of top users to show in Gamer Nation sidebar"
+      gamer_sidebar_top_users_period: "Time period for top users ranking (daily, weekly, monthly, etc)"
   hero:
     title: "Build something great together"
     subtitle: "A community for makers, thinkers, and doers. Ask questions, share ideas, and level up."
@@ -42,3 +46,13 @@ en:
       title: "Trending in category"
     top_tags:
       title: "Popular tags"
+  gamer_sidebar:
+    latest_users:
+      title: "New Members"
+      empty: "No users found"
+    latest_replies:
+      title: "Latest Replies"
+      empty: "No replies found"
+    top_users:
+      title: "Top Users"
+      empty: "No top users found"
